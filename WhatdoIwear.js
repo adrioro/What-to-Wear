@@ -11,6 +11,7 @@ var shirtSleeve = 8.71;
 
 // your code goes here
 
+
 if ((shirtWidth >= 18 && shirtWidth < 20)
     && (shirtLength >= 28 && shirtLength < 29)
     && (shirtSleeve >= 8.13 && shirtSleeve < 8.38)) {
@@ -33,4 +34,6 @@ if ((shirtWidth >= 18 && shirtWidth < 20)
         console.log("2XL");
     } else if (shirtWidth >= 28 && shirtLength >= 34 && shirtSleeve >= 10.13) {
         console.log("3XL");
+    }else {
+        console.log("N/A");
     }
